@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 4fr 5fr;
+    grid-template-rows: 2fr 7fr 2.5fr;
+    grid-template-areas:
+        "logo book big-image"
+        "small-image hero big-image"
+        "footer-one footer-one footer-two"
+    ;
+    height: 100vh;
+}
+
+main div {
+    border: 3px solid black;
+}
+
+.logo {
+    background: #EA942F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.book {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+    padding: 0px 24px;
+    background: #767749;
+    font-family: "Poppins";
+}
+
+.book h2 {
+    color: #FAD12F;
+    font: 400 28px "Anton";
+    line-height: 1.2;
+    text-align: center;
+    text-shadow: 0px 5px 0px black;
+}
+
+
+.big-image {
+    background: url(../images/big-image.png);
+    background-size: cover;
+}
+
+.small-image {
+    background: url(../images/small-image.png);
+    background-size: cover;
+}
+
+h1 {
+    color: #FAD12F;
+    font: 400 110px "Anton";
+    line-height: 1.2;
+    text-align: center;
+    text-shadow: 0px 11px 0px black;
+    text-transform: uppercase;
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #767749;
+}
+
+
+.footer-one{
+    display: flex;
+    padding: 28px;
+    justify-content: space-between;
+    align-items: center;
+    background: #6BC9D6;
+}
+
+.package-list{
+    font: 500 16px "Poppins";
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+}
+
+.package-type{
+    border: none;
+    width: 100px;
+    text-align: center;
+    font: 400 14px "Poppins";
+}
+
+.package-type h3{
+    font: 400 20px "Anton";
+    line-height: 1.1;
+    letter-spacing: 1.6px;
+    margin-bottom: 10px;
+}
+
+.package-type h3 span{
+    font-size: 28px;
+}
+
+.footer-two{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 22px;
+    background: #EA942F;
+    font-family: "Poppins";
+    font-size: 12px;
+    padding: 24px;
+}
+
+.footer-two h4{
+    font-size: 22px;
+    font-weight: 400;
+}
