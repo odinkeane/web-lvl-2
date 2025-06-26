@@ -2,7 +2,7 @@
 
 **Темы занятий**
 - Повторение
-  - [Повторение. Работа с HTML и CSS]https://github.com/odinkeane/web-lvl-2/tree/main/lesson-one
+  - [Повторение. Работа с HTML и CSS](https://github.com/odinkeane/web-lvl-2/tree/main/lesson-one)
   - Повторение. Работа с JavaScript. DOM. Функции и события
   - Повторение. Работа с JavaScript. Объекты
   - Повторение. Fetch-запросы
